@@ -1,0 +1,51 @@
+body{
+  background-color: #1A1E23;
+}
+.white-bar{
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+
+}
+.navbar-section{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-section ul{
+  width: 300px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.contain{
+margin: 0 200px 0 200px;
+}
+.btn{
+  width:300px;
+}
+.btn-primary{
+  background-color: #19acca;
+}
+.section-herobar{
+  margin-top: 50px;
+  color: white;
+  background-color: #1A1E23;
+  padding: 25px;
+  width: 100%;
+  height: 500px;
+  position: fixed;
+
+}
+.section-one{
+  position: relative;
+  top: 550px;
+  height: 1900px;
+ background-color: white;
+}
+.section-one .container .row .col{
+  margin-top:50px;
+}
