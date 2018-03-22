@@ -73,7 +73,7 @@ class SectionOne extends Component {
              <p>Need to contact us? No Problem, let us know how we can help.
                Office</p>
 
-              <p>(801) 702-7031</p>
+              <p>(801) 301-7482</p>
 
               <p>Monday – Friday, 9am – 5pm MST</p>
 
