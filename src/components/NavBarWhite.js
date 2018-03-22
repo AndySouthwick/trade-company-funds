@@ -8,7 +8,9 @@ class Navigation extends Component{
       <div className=" navbar-section" >
 
         <span>GoTradeOurMoney</span>
-
+        <ul>
+          <li><a href="https://secureonlinedaytradinguniversity.com/login">Trader University Login</a></li>
+        </ul>
       </div>
 </div>
     )
