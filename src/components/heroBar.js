@@ -15,7 +15,12 @@ render(){
         </Col>
         <Col xs="4">
           <h2>Day Trading Intro Webinar</h2>
-          <div Style="margin:auto;width:300px;"><div className="embedded-joinwebinar-button"><Button type="button" class="btn btn-default css3button" title="regpopbox_38575_8d4e0bf9ff"><span>Register now</span></Button></div></div>      </Col>
+          <div><div className="embedded-joinwebinar-button"><button type="button" className="btn btn-default css3button" title="regpopbox_38575_d1aee0eb74">
+            <span>Register now</span>
+          </button>
+          </div>
+          </div>
+        </Col>
       </Row>
     </Container>
     </div>
