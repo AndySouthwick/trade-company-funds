@@ -7,12 +7,7 @@ class Navigation extends Component{
 <div className="white-bar">
       <div className=" navbar-section" >
 
-        <span>DayTradeCompanyFunds</span>
-        <ul>
-          <li>About</li>
-          <li>Testimonials</li>
-          <li>Conatact</li>
-        </ul>
+        <span>GoTradeOurMoney</span>
 
       </div>
 </div>

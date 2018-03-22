@@ -94,7 +94,7 @@ class SectionOne extends Component {
           <Container>
             <Row>
               <Col>
-                © Copyright 2017 DayTradeCompanyFunds
+                © Copyright 2018 goTradeOurMoney
                 Futures and options trading is speculative and involves substantial risk of loss. Past performance is not indicative of future results. IMPORTANT NOTE: Trading foreign exchange or futures on margin carries a high level of risk, and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade foreign exchange or futures, you should carefully consider your investment objectives, level of experience, and risk appetite. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with foreign exchange and futures trading, and seek advice from an independent financial adviser if you have any doubts or questions. Past trading history does not indicate future trading success.v
               </Col>
             </Row>
