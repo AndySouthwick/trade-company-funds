@@ -21,7 +21,7 @@ class SectionOne extends Component {
                 Help traders retain their new wealth by continuing to practice sound trading principles and investment strategies.</p>
             </Col>
             <Col>
-              <img src="images/building.png" alt=""/>
+              <img src="images/building.png" alt="" width="100%"/>
               <div className="register-button">
                 <div className="embedded-joinwebinar-button"><button type="button" className="btn btn-default css3button" title="regpopbox_38575_d1aee0eb74">
                   <span>Register now</span>
