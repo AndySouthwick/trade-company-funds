@@ -49,3 +49,18 @@ margin: 0 200px 0 200px;
 .section-one .container .row .col{
   margin-top:50px;
 }
+.section-herobar .register-button{
+  max-width: 650px;
+  margin-left: 40px;
+}
+.section-one .register-button{
+  width: 400px;
+  margin-top: 150px;
+}
+
+.section-herobar .hero-ul{
+  margin-top: 200px;
+}
+.headline{
+  text-align: center;
+}

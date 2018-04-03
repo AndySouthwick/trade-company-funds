@@ -6,6 +6,7 @@ class SectionOne extends Component {
     return(
       <div className='section-one'>
         <Container>
+
           <Row>
             <Col>
               <h2><span>A little</span> about us</h2>
@@ -21,6 +22,12 @@ class SectionOne extends Component {
             </Col>
             <Col>
               <img src="images/building.png" alt=""/>
+              <div className="register-button">
+                <div className="embedded-joinwebinar-button"><button type="button" className="btn btn-default css3button" title="regpopbox_38575_d1aee0eb74">
+                  <span>Register now</span>
+                </button>
+                </div>
+              </div>
             </Col>
             
           </Row>
@@ -29,10 +36,17 @@ class SectionOne extends Component {
 
 
         <Container className="section-testimonials">
-          <Row>
-            <Col>
+          <div className=" headline d-flex justify-content-center">
+            <div className="d-flex flex-column">
               <h1>Testimonials from real traders</h1>
               <i>Real traders making real money and want to talk about it.</i>
+            </div>
+          </div>
+
+          <Row>
+
+            <Col md={{size: 4}}>
+
               <h3>Gustavo Beaklini</h3>
               <i>Tucson, Arizona</i>
 
@@ -44,13 +58,15 @@ class SectionOne extends Component {
                 This is way more than my daily goal of 1% to 2%. I think I want to raise my goal to 2% a day. And I swear that if
                 I only get 2% a day I’ll already be the happiest man in earth. It just happens that I’m getting more. Good for me.
               </p>
-
+            </Col>
+            <Col md={{size: 4}}>
               <h3>Jason Hyium</h3>
               <i>Los Angeles, California</i>
 
               <p>“I was introduced to this group from a friend and after the company funded my account, I knew this group had trust in me as a trader to
                 follow their system and in their ability to get results”</p>
-
+            </Col>
+            <Col md={{size: 4}}>
               <h3>Clinton Anderson</h3>
               <i>St. Louis, Missouri</i>
 
@@ -61,6 +77,12 @@ class SectionOne extends Component {
                 With the eliteness of the product and the support of fellow traders, this has been a great experience for me.
                 I don’t know where I would be or where I was going without them.”
               </p>
+              <div className="register-button">
+                <div className="embedded-joinwebinar-button"><button type="button" className="btn btn-default css3button" title="regpopbox_38575_d1aee0eb74">
+                  <span>Register now</span>
+                </button>
+                </div>
+              </div>
             </Col>
           </Row>
 
@@ -73,7 +95,7 @@ class SectionOne extends Component {
              <p>Need to contact us? No Problem, let us know how we can help.
                Office</p>
 
-              <p>(801) 301-7482</p>
+              <p>Dan: (801) 651-4832 dan@gotradeourmoeny.com</p>
 
               <p>Monday – Friday, 9am – 5pm MST</p>
 
