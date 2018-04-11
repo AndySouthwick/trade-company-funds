@@ -1,14 +1,16 @@
 body{
-  background-color: #1A1E23;
+  background-color: white;
 }
 .white-bar{
   width: 100%;
   background-color: white;
+  border-bottom:1px;
+  box-shadow: 0 3px #99999966;
   height: 50px;
-  padding: 15px;
   position: fixed;
   z-index: 1;
-
+  padding: 15px;
+  margin-top: -50px;
 }
 .navbar-section{
   display: flex;
@@ -21,9 +23,6 @@ body{
   justify-content: space-around;
 }
 
-.contain{
-margin: 0 200px 0 200px;
-}
 .btn{
   width:300px;
 }
@@ -31,19 +30,16 @@ margin: 0 200px 0 200px;
   background-color: #19acca;
 }
 .section-herobar{
-  margin-top: 50px;
-  color: white;
-  background-color: #1A1E23;
+  display: flex;
+  color: #353535;
+  background-color: white;
   padding: 25px;
   width: 100%;
-  height: 500px;
-  position: fixed;
+  margin-top: 50px;
 
 }
 .section-one{
   position: relative;
-  top: 550px;
-  height: 1900px;
  background-color: white;
 }
 .section-one .container .row .col{
@@ -57,46 +53,26 @@ margin: 0 200px 0 200px;
   width: 400px;
   margin-top: 150px;
 }
-
 .section-herobar .hero-ul{
   margin-top: 200px;
 }
 .headline{
   text-align: center;
 }
-.video-contaner{
-  max-width: 600px;
-  margin-left: 200px;
+.video-section{
+  width: 700px;
 }
-
-@media(max-width: 400px) {
-  .video-contaner{
-    max-width: 100%;
-    margin-left:0;
-  }
-  .col{
-    width: 100%!important;
-  }
-  .container{
-    width: 100%!important;
-  }
-  .row{
-    width: 100%!important;
+@media only screen and (max-width: 600px) {
+  .section-herobar{
+    display: block;
   }
   .section-one{
-    top:700px;
     width: 100%;
-    height: 3500px;
-  }
-  .register-button{
-    max-width: 300px;
-  }
-  .section-one .register-button{
-    max-width: 300px!important;
-    margin-top: 20px!important;
-
   }
   .section-herobar .register-button{
-    margin-top: -100px;
+    max-width: 100%;
+  }
+  .video-section{
+    width: 100%;
   }
 }

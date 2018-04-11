@@ -6,7 +6,7 @@ import SectionOne from './components/sectionOne'
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Navigation/>
         <HeroBar/>
         <SectionOne/>
