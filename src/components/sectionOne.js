@@ -95,7 +95,7 @@ class SectionOne extends Component {
              <p>Need to contact us? No Problem, let us know how we can help.
                Office</p>
 
-              <p>Dan: (801) 651-4832 dan@gotradeourmoney.com</p>
+              <p>Dan: 385-444-6555 dan@gotradeourmoney.com</p>
 
               <p>Monday – Friday, 9am – 5pm MST</p>
 
