@@ -95,7 +95,7 @@ class SectionOne extends Component {
              <p>Need to contact us? No Problem, let us know how we can help.
                Office</p>
 
-              <p>Jeff: (801)-895-4541</p>
+              <p>Jeff: jeff@gotradeourmoney.com  (801)-895-4541</p>
               <p>Monday – Friday, 9am – 5pm MST</p>
 
               <p>Mailing Address</p>
